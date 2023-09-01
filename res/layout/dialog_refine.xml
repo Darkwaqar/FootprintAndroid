@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/refine_bg"
+    android:paddingBottom="@dimen/activity_vertical_margin">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar_refine"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentTop="true" />
+
+    <LinearLayout
+        android:id="@+id/container_attributes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="120dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:baselineAligned="false">
+
+        <LinearLayout
+            android:id="@+id/layout_refine_style"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:id="@+id/btn_style_attr_pt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/refine_layout_single_attr_bg"
+                android:gravity="center_horizontal|center_vertical">
+
+                <TextView
+                    android:id="@+id/btn_style_attr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/refine_style_attr" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/Style" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_refine_size"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:id="@+id/btn_size_attr_pt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/refine_layout_single_attr_bg"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/btn_size_attr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/refine_size_attr" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/Size" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_refine_color"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:id="@+id/btn_color_attr_pt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/refine_layout_single_attr_bg"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/btn_color_attr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/refine_color_attr" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/Color" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_refine_material"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:id="@+id/btn_material_attr_pt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/refine_layout_single_attr_bg"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/btn_material_attr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/refine_material_attr" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/Material" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_refine_sole"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:id="@+id/btn_sole_attr_pt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/refine_layout_single_attr_bg"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/btn_sole_attr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/refine_sole_attr" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/Sole" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView_attr_values"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@+id/container_attributes"
+        android:layout_marginTop="@dimen/margin_10" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/refine_price_range_txt"
+        android:layout_marginBottom="4dp"
+        android:gravity="center_horizontal"
+        android:text="@string/refine_price_range_title" />
+
+    <TextView
+        android:id="@+id/refine_price_range_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/range_bar_refine_price"
+        android:layout_marginBottom="8dp"
+        android:gravity="center_horizontal"
+        android:text="@string/AllPrice"
+        android:textSize="@dimen/text_size_10sp" />
+
+    <sa.growonline.footprint.view.RangeBar
+        android:id="@+id/range_bar_refine_price"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_above="@+id/btn_refine_reset"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="@dimen/margin_20"
+        android:layout_marginRight="@dimen/margin_20"
+        app:barWeight="4dp"
+        app:connectingLineColor="@color/contrast_color"
+        app:connectingLineWeight="2dp"
+        app:rangeBarColor="@color/white"
+        app:selectorColor="@color/white"
+        app:selectorSize="14dp" />
+
+    <TextView
+        android:id="@+id/btn_refine_reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_refine_apply"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"
+        android:text="@string/refine_reset_btn_title" />
+
+    <Button
+        android:id="@+id/btn_refine_apply"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="@dimen/margin_20"
+        android:layout_marginRight="@dimen/margin_20"
+        android:background="@drawable/refine_apply_button_style"
+        android:text="@string/refine_apply_btn_title"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:background="#000000">
+
+            <ImageView
+                android:id="@+id/search_back_imgview"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:padding="@dimen/margin_5"
+                android:src="@drawable/backbutton" />
+
+
+            <TextView
+                android:id="@+id/headertext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/search"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_medium" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/search_edittext_layout"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_marginLeft="@dimen/margin_15"
+            android:layout_marginRight="@dimen/margin_15"
+            android:background="@drawable/edit_text_background"
+            android:minHeight="?attr/actionBarSize">
+
+            <ImageView
+                android:id="@+id/search_back_imgview5"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/margin_very_small"
+                android:layout_marginStart="@dimen/margin_very_small"
+                android:scaleType="fitXY"
+                android:src="@drawable/filter_category_search" />
+
+            <EditText
+                android:id="@+id/search_edit_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/margin_5"
+                android:layout_marginStart="@dimen/margin_5"
+                android:layout_toRightOf="@+id/search_back_imgview5"
+                android:layout_toEndOf="@+id/search_back_imgview5"
+                android:background="@null"
+                android:hint="@string/search_keyword"
+                android:inputType="textCapSentences"
+                android:maxLines="1"
+                android:textColor="@color/dialog_color"
+                android:textColorHint="@color/light_grey"
+                android:textSize="@dimen/text_size_medium">
+
+                <requestFocus />
+            </EditText>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/search_price_textviews_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_15"
+            android:layout_marginRight="@dimen/margin_15"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:background="@drawable/edit_text_background">
+
+                <TextView
+                    android:id="@+id/search_back_imgview1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/pkr"
+                    android:textColor="@color/dialog_color"
+                    android:textSize="@dimen/text_size_medium" />
+
+                <EditText
+                    android:id="@+id/search_price_minimum_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/search_back_imgview1"
+                    android:layout_toRightOf="@id/search_back_imgview1"
+                    android:background="@null"
+                    android:digits="0123456789"
+                    android:gravity="start"
+                    android:hint="@string/min_price"
+                    android:inputType="numberSigned"
+                    android:maxLines="1"
+                    android:padding="@dimen/margin_8"
+                    android:textColor="@color/light_grey"
+                    android:textColorHint="@color/light_grey"
+                    android:textSize="@dimen/text_size_medium" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:background="@drawable/edit_text_background">
+
+                <TextView
+                    android:id="@+id/search_back_imgview2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/pkr"
+                    android:textColor="@color/dialog_color"
+                    android:textSize="@dimen/text_size_medium" />
+
+                <EditText
+                    android:id="@+id/search_price_maximum_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/search_back_imgview2"
+                    android:layout_toRightOf="@id/search_back_imgview2"
+                    android:background="@null"
+                    android:digits="0123456789"
+                    android:gravity="start"
+                    android:hint="@string/max_price"
+                    android:inputType="numberSigned"
+                    android:maxLines="1"
+                    android:padding="@dimen/margin_8"
+                    android:textColor="@color/light_grey"
+                    android:textColorHint="@color/light_grey"
+                    android:textSize="@dimen/text_size_medium" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/bottom_search_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_10">
+
+            <RelativeLayout
+                android:id="@+id/search_category_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_15"
+                android:layout_marginRight="@dimen/margin_15"
+                android:background="@drawable/edit_text_background">
+
+                <ImageView
+                    android:id="@+id/search_category_imgview"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/margin_very_small"
+                    android:layout_marginStart="@dimen/margin_very_small"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/filter_category_search" />
+
+                <TextView
+                    android:id="@+id/search_category_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/search_category_imgview"
+                    android:layout_toEndOf="@+id/search_category_imgview"
+                    android:hint="@string/category"
+                    android:padding="@dimen/margin_10"
+                    android:textColor="@color/light_grey"
+                    android:textColorHint="@color/light_grey"
+                    android:textSize="@dimen/text_size_medium" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/search_category_layout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/search_category_layout"
+                android:layout_marginLeft="@dimen/margin_10"
+                android:layout_marginRight="@dimen/margin_10"
+                android:layout_marginTop="@dimen/margin_5">
+
+                <CheckBox
+                    android:id="@+id/search_in_product_descriptions"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:hint="@string/search_in_product_category"
+                    android:padding="@dimen/margin_10"
+                    android:scaleX="0.88"
+                    android:scaleY="0.88"
+                    android:textColor="@color/light_grey"
+                    android:textColorHint="@color/light_grey"
+                    android:textSize="@dimen/text_size_medium" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/search_category_layout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/search_category_layout1"
+                android:layout_marginLeft="@dimen/margin_10"
+                android:layout_marginRight="@dimen/margin_10"
+                android:layout_marginTop="@dimen/margin_5">
+
+                <CheckBox
+                    android:id="@+id/search_in_sub_categories_descriptions"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:hint="@string/search_in_sub_categories"
+                    android:padding="@dimen/margin_10"
+                    android:scaleX="0.88"
+                    android:scaleY="0.88"
+                    android:textColor="@color/light_grey"
+                    android:textColorHint="@color/light_grey"
+                    android:textSize="@dimen/text_size_medium" />
+            </RelativeLayout>
+
+            <sa.growonline.footprint.view.RangeBar
+                android:id="@+id/price_range_bar"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@id/search_category_layout2"
+                android:layout_marginLeft="@dimen/margin_5"
+                android:layout_marginStart="@dimen/margin_5"
+                android:paddingLeft="@dimen/margin_5"
+                android:paddingRight="@dimen/margin_5"
+                android:paddingTop="@dimen/margin_5"
+                android:visibility="gone"
+                custom:pinMaxFont="10sp"
+                custom:temporaryPins="false"
+                custom:tickEnd="10"
+                custom:tickInterval="1" />
+
+
+            <Button
+                android:id="@+id/search_start_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/price_range_bar"
+                android:layout_marginLeft="@dimen/margin_15"
+                android:layout_marginRight="@dimen/margin_15"
+                android:layout_marginTop="@dimen/margin_15"
+                android:background="@color/app_theme_color"
+                android:gravity="center"
+                android:padding="@dimen/margin_10"
+                android:text="@string/search"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_medium"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

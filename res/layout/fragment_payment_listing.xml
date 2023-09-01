@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/frag_payment_listing_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_20"
+        android:gravity="center"
+        android:text="@string/select_shipping_methods"
+        android:textSize="@dimen/text_size_normal"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/frag_payment_listing_reward_points_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/frag_payment_listing_heading"
+        android:layout_marginTop="@dimen/margin_10"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/frag_payment_listing_reward_points"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start|center_vertical"
+            android:text="@string/pay_fees_from_reward_points"
+            android:textSize="@dimen/text_size_normal" />
+
+        <TextView
+            android:id="@+id/frag_payment_listing_reward_points_lbl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_10"
+            android:layout_marginStart="@dimen/margin_10"
+            android:gravity="start|center_vertical"
+            android:text="@string/pay_fees_from_reward_points"
+            android:textSize="@dimen/text_size_normal" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/frag_payment_add_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/margin_10"
+        android:gravity="center"
+        android:padding="@dimen/margin_10"
+        android:text="@string/add_payment"
+        android:textSize="@dimen/text_size_medium"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/frag_payment_listing_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/frag_payment_add_btn"
+        android:layout_below="@id/frag_payment_listing_reward_points_layout"
+        android:layout_marginTop="@dimen/margin_10" />
+
+</RelativeLayout>

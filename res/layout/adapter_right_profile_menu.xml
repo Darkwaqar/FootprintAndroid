@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/adapter_right_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:paddingBottom="@dimen/margin_15"
+        android:paddingEnd="@dimen/margin_15"
+        android:paddingLeft="@dimen/margin_15"
+        android:paddingRight="@dimen/margin_15"
+        android:paddingStart="@dimen/margin_15"
+        android:paddingTop="@dimen/margin_15"
+        android:text="@string/category_name"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_small" />
+
+    <ImageView
+        android:id="@+id/adapter_right_imgview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:contentDescription="@string/app_name" />
+
+    <View
+        android:id="@+id/right_menu_seperator"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_below="@id/adapter_right_textview"
+        android:alpha="0.6"
+        android:background="@color/white"
+        android:padding="@dimen/margin_10" />
+</RelativeLayout>

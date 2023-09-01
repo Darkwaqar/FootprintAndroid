@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_theme_color">#051c3b</color>
+    <color name="adapter_product_list_name">#454F51</color>
+	<color name="dialog_color">#777777</color>
+    <color name="contrast_color">#8da7a8</color>
+	<color name="disable_addtocart">#4474bb</color>
+	<color name="cart_bg">#11000000</color>
+	<color name="process_order_bg">#99000000</color>
+    <color name="abc">#051c3b</color>
+	<color name="light_gray">#AAAAAA</color>
+	<color name="app_blue">#1c304d</color>
+	<color name="darkest_blue">#0a2746</color>
+	<color name="header_color">#efedee</color>
+    <color name="gift_voucher_bg_color">#e5ded1</color>
+	<color name="color_product_list_item_bg">#8ea8a7</color>
+	<color name="light_red">#F45B57</color>
+	<color name="color_material_view_pager_women">#3B240B</color>
+	<color name="color_material_view_pager_men">#0431B4</color>
+	<color name="color_material_view_pager_kids">#B45F04</color>
+	<color name="color_material_view_pager_default">#3B0B24</color>
+	<color name="color_material_view_pager_computers">#00FF80</color>
+	<color name="color_material_view_pager_elect">#00BFFF</color>
+	<color name="color_material_view_pager_jewel">#FACC2E</color>
+	<color name="color_material_view_pager_bg">#848484</color>
+	<color name="mid_blue">#005ce6</color>
+    <color name="silver">#808080</color>
+    <color name="ferozi">#DF8EA8A9</color>
+    <color name="light_grey">#AAAAAA</color>
+	<!-- SearchView -->
+	<color name="search_layover_bg">@color/gray</color>
+    <color name="search_field_bg">@color/white_ish</color>
+
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="gray">#ff888888</color>
+
+    <color name="white_50">#DFffffff</color>
+    <color name="black_50">#88000000</color>
+    <color name="gray_50">#33888888</color>
+
+    <color name="white_ish">#fffefefe</color>
+
+	<color name="dark_blue">#6d5293</color>
+	
+</resources>

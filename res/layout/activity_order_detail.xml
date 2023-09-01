@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:padding="@dimen/margin_20">
+
+        <TextView
+            android:id="@+id/txtview_order_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_5"
+            android:text="@string/activity_order_id"
+            android:textColorHint="@android:color/darker_gray"
+            android:textSize="@dimen/text_size_medium" />
+
+        <TextView
+            android:id="@+id/activity_order_date_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_5"
+            android:text="@string/activity_order_date_time"
+            android:textColorHint="@android:color/darker_gray"
+            android:textSize="@dimen/text_size_medium" />
+
+        <TextView
+            android:id="@+id/activity_order_total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_5"
+            android:text="@string/activity_order_total"
+            android:textColorHint="@android:color/darker_gray"
+            android:textSize="@dimen/text_size_medium" />
+
+        <TextView
+            android:id="@+id/activity_order_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_5"
+            android:text="@string/activity_order_status"
+            android:textColorHint="@android:color/darker_gray"
+            android:textSize="@dimen/text_size_medium" />
+
+        <TextView
+            android:id="@+id/activity_order_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_5"
+            android:text="@string/dot"
+            android:textColorHint="@android:color/darker_gray"
+            android:textSize="@dimen/text_size_medium" />
+
+        <TextView
+            android:id="@+id/activity_order_addr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_5"
+            android:text="@string/dot"
+            android:textColorHint="@android:color/darker_gray"
+            android:textSize="@dimen/text_size_medium" />
+
+        <TextView
+            android:id="@+id/activity_order_payment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_5"
+            android:text="@string/activity_order_payment"
+            android:textColorHint="@android:color/darker_gray"
+            android:textSize="@dimen/text_size_medium" />
+
+        <TextView
+            android:id="@+id/activity_order_shipping"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_5"
+            android:text="@string/activity_order_shipping"
+            android:textColorHint="@android:color/darker_gray"
+            android:textSize="@dimen/text_size_medium" />
+
+        <LinearLayout
+            android:id="@+id/sku_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_5"
+            android:orientation="vertical"
+            android:padding="@dimen/margin_10" />
+    </LinearLayout>
+</ScrollView>
+
+

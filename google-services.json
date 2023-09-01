@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "24674296136",
+    "firebase_url": "https://footprint-557bd.firebaseio.com",
+    "project_id": "footprint-557bd",
+    "storage_bucket": "footprint-557bd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:24674296136:android:e4d4cea716e47f68",
+        "android_client_info": {
+          "package_name": "dark.growonline.footprint"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "24674296136-34kvnerm6fddot4qkns5d0419p6gk0f8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKCjtJLj3P9ctqRHmA2Yuti2Ghk-n2v8Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

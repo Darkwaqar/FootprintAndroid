@@ -1,0 +1,54 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="windowNoTitle">true</item>
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+
+    <style name="view_pager_theme" parent="@style/Theme.AppCompat.Light"></style>
+
+    <style name="login_edittext" parent="TextAppearance.AppCompat">
+        <item name="android:textColorHint">@android:color/black</item>
+        <item name="colorAccent">@android:color/black</item>
+        <item name="colorControlNormal">@android:color/black</item>
+        <item name="colorControlActivated">@android:color/black</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="AutoCompleteTextViewAppTheme" parent="Base.Widget.AppCompat.EditText">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+
+
+    <style name="login__edittext" parent="TextAppearance.AppCompat">
+        <item name="android:textColorHint">#88ffffff</item>
+        <item name="colorAccent">@color/app_theme_color</item>
+        <item name="colorControlNormal">@color/app_theme_color</item>
+        <item name="colorControlActivated">#88ffffff</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <declare-styleable name="NotificationBadge">
+        <attr name="nbTextSize" format="dimension"/>
+        <attr name="nbTextColor" format="color" />
+        <attr name="nbBackground" format="reference" />
+        <attr name="nbAnimationEnabled" format="boolean" />
+        <attr name="nbAnimationDuration" format="integer" />
+        <attr name="nbMaxTextLength" format="integer" />
+        <attr name="nbEllipsizeText" format="string" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <sa.growonline.footprint.view.DynamicHeightGridView
+            android:id="@+id/grid_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/margin_very_small"
+            android:horizontalSpacing="@dimen/margin_very_small"
+            android:verticalSpacing="@dimen/margin_very_small" />
+
+        <Button
+            android:id="@+id/refresh_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_very_small"
+            android:background="@null"
+            android:padding="@dimen/margin_10"
+            android:text="@string/load_more"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

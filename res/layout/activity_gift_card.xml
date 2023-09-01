@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gift_voucher_bg_color"
+    android:orientation="vertical"
+    tools:context="sa.growonline.footprint.ActivityGiftCard">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar_gift_card"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/gift_voucher_main_image"
+                android:contentDescription="@string/gift" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_10"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="@dimen/margin_10">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white">
+
+                    <Spinner
+                        android:id="@+id/spinner_gift_card_item"
+                        android:layout_width="wrap_content"
+                        android:gravity="top|start"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingTop="@dimen/margin_10">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/lbl_recepient"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/margin_10"
+                            android:layout_marginStart="@dimen/margin_10"
+                            android:layout_marginTop="@dimen/margin_10"
+                            android:text="@string/to" />
+
+                        <EditText
+                            android:id="@+id/txt_recepient_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/margin_5"
+                            android:layout_marginLeft="@dimen/margin_10"
+                            android:layout_marginStart="@dimen/margin_10"
+                            android:layout_marginRight="@dimen/margin_5"
+                            android:layout_marginEnd="@dimen/margin_5"
+                            android:layout_marginTop="@dimen/margin_10"
+                            android:background="@drawable/textbox_blackborder"
+                            android:hint="@string/recipient_name"
+                            android:padding="@dimen/margin_10"
+                            android:textColor="@color/black"
+                            android:textColorHint="@color/gray_50"
+                            android:textSize="@dimen/text_size_10sp"
+                            android:maxLines="1" />
+
+                        <EditText
+                            android:id="@+id/txt_recepient_email"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/margin_10"
+                            android:layout_marginStart="@dimen/margin_10"
+                            android:layout_marginRight="@dimen/margin_5"
+                            android:layout_marginEnd="@dimen/margin_5"
+                            android:layout_marginTop="@dimen/margin_10"
+                            android:background="@drawable/textbox_blackborder"
+                            android:hint="@string/recipient_email"
+                            android:padding="@dimen/margin_10"
+                            android:textColor="@color/black"
+                            android:textColorHint="@color/gray_50"
+                            android:textSize="@dimen/text_size_10sp"
+                            android:maxLines="1"
+                            android:inputType="textEmailAddress" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/lbl_from"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/margin_10"
+                            android:layout_marginStart="@dimen/margin_10"
+                            android:layout_marginTop="@dimen/margin_10"
+                            android:text="@string/from" />
+
+                        <EditText
+                            android:id="@+id/txt_from_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/margin_5"
+                            android:layout_marginLeft="@dimen/margin_5"
+                            android:layout_marginStart="@dimen/margin_5"
+                            android:layout_marginRight="@dimen/margin_10"
+                            android:layout_marginEnd="@dimen/margin_10"
+                            android:layout_marginTop="@dimen/margin_10"
+                            android:background="@drawable/textbox_blackborder"
+                            android:hint="@string/your_name"
+                            android:padding="@dimen/margin_10"
+                            android:textColor="@color/black"
+                            android:textColorHint="@color/gray_50"
+                            android:textSize="@dimen/text_size_10sp"
+                            android:maxLines="1" />
+
+                        <EditText
+                            android:id="@+id/txt_your_email"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/margin_5"
+                            android:layout_marginStart="@dimen/margin_5"
+                            android:layout_marginRight="@dimen/margin_10"
+                            android:layout_marginEnd="@dimen/margin_10"
+                            android:layout_marginTop="@dimen/margin_10"
+                            android:background="@drawable/textbox_blackborder"
+                            android:hint="@string/your_email"
+                            android:padding="@dimen/margin_10"
+                            android:textColor="@color/black"
+                            android:textColorHint="@color/gray_50"
+                            android:textSize="@dimen/text_size_10sp"
+                            android:maxLines="1"
+                            android:inputType="textEmailAddress" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_10"
+                    android:layout_marginLeft="@dimen/margin_10"
+                    android:layout_marginStart="@dimen/margin_10"
+                    android:layout_marginTop="@dimen/margin_20"
+                    android:text="@string/message_optional" />
+
+                <EditText
+                    android:id="@+id/txt_message"
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:layout_marginLeft="@dimen/margin_10"
+                    android:layout_marginRight="@dimen/margin_10"
+                    android:background="@drawable/textbox_blackborder"
+                    android:gravity="top"
+                    android:hint="@string/enter_your_message_here"
+                    android:paddingLeft="@dimen/margin_10"
+                    android:paddingRight="@dimen/margin_10"
+                    android:paddingStart="@dimen/margin_10"
+                    android:paddingTop="@dimen/margin_5"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/gray_50"
+                    android:textSize="@dimen/text_size_10sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_10"
+                    android:orientation="horizontal">
+
+                    <android.support.v7.widget.AppCompatButton
+                        android:id="@+id/btn_cancel"
+                        android:layout_width="0dp"
+                        android:layout_height="35dp"
+                        android:layout_marginLeft="@dimen/margin_10"
+                        android:layout_marginStart="@dimen/margin_10"
+                        android:layout_marginTop="@dimen/margin_10"
+                        android:layout_weight="1"
+                        android:background="@drawable/rounded_grey"
+                        android:text="@string/cancel"
+                        android:textColor="@color/white" />
+
+                    <android.support.v7.widget.AppCompatButton
+                        android:id="@+id/btn_send"
+                        android:layout_width="0dp"
+                        android:layout_height="35dp"
+                        android:layout_marginLeft="@dimen/margin_10"
+                        android:layout_marginRight="@dimen/margin_10"
+                        android:layout_marginTop="@dimen/margin_10"
+                        android:layout_weight="1"
+                        android:background="@drawable/send_now"
+                        android:text="@string/send_now"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

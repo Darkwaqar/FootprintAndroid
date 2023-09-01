@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:padding="@dimen/margin_10">
+
+        <TextView
+            android:id="@+id/frag_checkout_confirm_details_txtview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_10"
+            android:gravity="center"
+            android:text="@string/new_address"
+            android:textSize="@dimen/text_size_medium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/frag_checkout_locatioin_lbl_txtview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_10"
+            android:gravity="center_vertical"
+            android:text="@string/location_info" />
+
+        <EditText
+            android:id="@+id/shipping_location_address_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_5"
+            android:ems="10"
+            android:hint="@string/address_1"
+            android:inputType="textPostalAddress">
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/shipping_location_address_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_10"
+            android:ems="10"
+            android:hint="Address 2"
+            android:inputType="textPostalAddress" />
+
+        <TextView
+            android:id="@+id/shipping_location_country_txtview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/nav_category_right"
+            android:drawableRight="@drawable/nav_category_right"
+            android:gravity="center_vertical"
+            android:hint="@string/country"
+            android:paddingBottom="@dimen/margin_5"
+            android:paddingLeft="@dimen/margin_5"
+            android:paddingRight="@dimen/margin_5"
+            android:paddingTop="@dimen/margin_10"
+            android:textSize="@dimen/text_size_medium" />
+
+        <EditText
+            android:id="@+id/shipping_location_province_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/province"
+            android:inputType="textPostalAddress" />
+
+        <EditText
+            android:id="@+id/shipping_location_state_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/state"
+            android:inputType="textPostalAddress" />
+
+        <EditText
+            android:id="@+id/shipping_location_city_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/city" />
+
+        <EditText
+            android:id="@+id/shipping_location_postalcode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_5"
+            android:ems="10"
+            android:hint="@string/postal_code"
+            android:inputType="textPhonetic" />
+
+        <TextView
+            android:id="@+id/frag_checkout_general_lbl_txtview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_10"
+            android:gravity="center_vertical"
+            android:text="@string/general_info" />
+
+        <EditText
+            android:id="@+id/shipping_location_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_10"
+            android:ems="10"
+            android:hint="@string/Name" />
+
+        <EditText
+            android:id="@+id/shipping_location_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_10"
+            android:ems="10"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/shipping_location_company"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_10"
+            android:ems="10"
+            android:hint="@string/company_name" />
+
+        <EditText
+            android:id="@+id/shipping_location_ph_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_10"
+            android:ems="10"
+            android:hint="@string/phone_number"
+            android:inputType="phone"
+            android:maxLength="11" />
+
+        <EditText
+            android:id="@+id/shipping_location_fax_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_10"
+            android:ems="10"
+            android:hint="@string/fax_number"
+            android:inputType="phone" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/shipping_location_confirm_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_5"
+            android:background="@color/app_theme_color"
+            android:text="@string/confirm"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_medium" />
+    </LinearLayout>
+</ScrollView>

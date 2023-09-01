@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/margin_10">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/qty_edit_text"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="@dimen/margin_10"
+        android:text="@string/enter_quantity"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/qty_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_10"
+        android:layout_marginStart="@dimen/margin_10"
+        android:layout_marginTop="8dp"
+        android:layout_toEndOf="@id/textView1"
+        android:layout_toRightOf="@id/textView1"
+        android:hint="@string/enter_quantity"
+        android:inputType="number"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/positive_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/qty_edit_text"
+        android:padding="@dimen/margin_10"
+        android:text="@string/add_to_cart"
+        android:textColor="@color/app_theme_color" />
+
+    <TextView
+        android:id="@+id/negative_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/positive_btn"
+        android:layout_toLeftOf="@id/positive_btn"
+        android:layout_toStartOf="@id/positive_btn"
+        android:padding="@dimen/margin_10"
+        android:text="@string/cancel"
+        android:textColor="@color/app_theme_color" />
+
+</RelativeLayout>

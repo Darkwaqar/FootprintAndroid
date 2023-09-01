@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto">
+	<item
+    	android:id="@+id/activity_signup_day"
+        android:title="Movies"
+        android:visible="true"/>
+	<item
+    	android:id="@+id/activity_signup_month"
+        android:title="Music"
+        android:visible="true"/>
+	<item
+    	android:id="@+id/activity_signup_year"
+        android:title="Comedy"
+        android:visible="true"/>
+
+</menu>

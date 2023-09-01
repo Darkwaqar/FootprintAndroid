@@ -1,0 +1,23 @@
+<resources>
+
+    <!--
+        Base application theme for API 14+. This theme completely replaces
+        AppBaseTheme from BOTH res/values/styles.xml and
+        res/values-v11/styles.xml on API 14+ devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- API 14 theme customizations can go here. -->
+
+    </style>
+
+    <style name="PauseDialog" parent="@android:style/Theme.Translucent">
+        <item name="android:windowAnimationStyle">@style/PauseDialogAnimation</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="PauseDialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/activity_bottom_to_top</item>
+        <item name="android:windowExitAnimation">@anim/activity_top_to_bottom</item>
+    </style>
+
+</resources>

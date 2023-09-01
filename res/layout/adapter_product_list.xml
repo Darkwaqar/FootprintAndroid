@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sa.growonline.footprint.view.SquareLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8">
+
+        <ImageView
+            android:id="@+id/adapter_product_imageview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_launcher" />
+
+        <ImageView
+            android:id="@+id/sold_out_imageview"
+            android:layout_width="70dp"
+            android:layout_height="52dp"
+            android:layout_marginLeft="@dimen/margin_5"
+            android:layout_marginStart="@dimen/margin_5"
+            android:layout_marginTop="@dimen/margin_5"
+            android:scaleType="fitXY"
+            android:src="@drawable/sold_out_img" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/margin_very_small">
+
+        <TextView
+            android:id="@+id/adapter_product_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingLeft="@dimen/margin_10"
+            android:paddingRight="@dimen/margin_10"
+            android:paddingStart="@dimen/margin_10"
+            android:text="@string/coventry"
+            android:textAllCaps="true"
+            android:textColor="@color/app_blue" />
+
+        <TextView
+            android:id="@+id/adapter_product_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:paddingLeft="@dimen/margin_10"
+            android:paddingRight="@dimen/margin_10"
+            android:paddingStart="@dimen/margin_10"
+            android:text="@string/dollar"
+            android:textColor="@color/app_blue"
+            android:textSize="@dimen/text_size_12sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</sa.growonline.footprint.view.SquareLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_footprint"
+    android:orientation="vertical">
+
+
+    <sa.parallax.lib.ParallaxListView
+        android:id="@+id/parallax_home_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:anim_duration="300"
+        app:maximum_item_height="400dp"
+        app:minimum_item_height="100dp" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+
+        <ImageView
+            android:id="@+id/activity_home_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:contentDescription="@string/Profile"
+            android:padding="15dp"
+            android:onClick="OpenCart"
+            android:src="@drawable/shopping_cart" />
+
+        <sa.growonline.footprint.utils.NotificationBadge
+            android:id="@+id/home_badge"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_alignTop="@id/activity_home_profile"
+            android:layout_marginLeft="-32dp"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@id/activity_home_profile"
+            android:contentDescription="@string/Profile"
+            app:nbBackground="@drawable/badge_bg_with_shadow"
+            app:nbMaxTextLength="2" />
+
+        <ImageView
+            android:id="@+id/activity_home_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/drawer"
+            android:padding="15dp"
+            android:onClick="OpenLeftDrawer"
+            android:src="@drawable/menu_icon" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

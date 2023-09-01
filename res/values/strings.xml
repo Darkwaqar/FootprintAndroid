@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FOOTPRINT</string>
+    <string name="no_internet">Oops..! You don\'t have a internet connection</string>
+    <string name="app_id">1994845527502481</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="progress_msg">Please wait…!</string>
+    <string name="crash_toast">Oops..! We encountered some technical issue in the application, please forward the crash report on given email address</string>
+    <string name="title_activity_activity_splash">FOOTPRINT</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="activity_category_section_title">CATEGORY</string>
+
+    <string name="activity_cartdetails_bottom_layout_total_product">0 products</string>
+    <string name="size">SIZE</string>
+    <string name="add">ADD</string>
+
+    <string name="add_to_fav_list">ADD TO FAVORITE</string>
+    <string name="product_info">PRODUCT INFO</string>
+    <string name="share">SHARE</string>
+    <string name="physical_stock">STOCK IN PHYSICAL STORES</string>
+
+    <string name="fragment_detail_parent_attribute_i_tag">i_tag</string>
+    <string name="fragment_detail_parent_attribute_j_tag">j_tag</string>
+
+    <string name="fragment_category_tag_i">fragment_category_tag_i</string>
+    <string name="fragment_category_tag_j">fragment_category_tag_j</string>
+    <!-- SignUp -->
+    <string name="error_email">Oops&#8230;! Please type your email address</string>
+    <string name="error_query">Oops&#8230;! Please type your query</string>
+    <string name="invalid_email">Oops&#8230;! Please type a valid email address</string>
+    <string name="error_password">Oops&#8230;! Please type your password</string>
+    <string name="error_user_name">Oops&#8230;! Please type your name</string>
+    <string name="error_first_name">Oops&#8230;! Please type your first name</string>
+    <string name="error_last_name">Oops&#8230;! Please type your last name</string>
+    <string name="error_dob">Oops&#8230;! Please select your DOB</string>
+    <string name="error_image">Oops&#8230;! Please put your avatar</string>
+
+    <!-- Filter -->
+    <string name="search_hint">Search&#8230;</string>
+    <string name="hint_prompt">Speak an item name or a number</string>
+
+    <string name="cd_up_button">UP navigation button</string>
+    <string name="cd_voice_search">Voice search</string>
+    <string name="cd_clear_button">Clear field</string>
+
+    <!-- My Account -->
+    <string name="activity_sign_up_location">Location</string>
+    <string name="activity_sign_up_contact">Contact</string>
+    <string name="activity_sign_up_dob">General</string>
+    <string name="activity_sign_up_name">User Name</string>
+    <string name="activity_sign_up_email">Email</string>
+
+    <string name="activity_sign_up_location_val">Location: %s</string>
+    <string name="activity_sign_up_country">Country: %s</string>
+    <string name="activity_sign_up_city">City: %s</string>
+    <string name="activity_sign_up_street">Street Name: %s</string>
+    <string name="activity_sign_up_company">Company: %s</string>
+
+    <string name="activity_sign_up_number_val">Phone: %s</string>
+    <string name="activity_sign_up_fax">Fax: %s</string>
+    <string name="activity_sign_up_dob_val">Date of birth: %s</string>
+    <string name="activity_sign_up_name_val">Name: %s</string>
+    <string name="activity_sign_up_email_val">Email: %s</string>
+
+    <string name="order_num">Order#: %s</string>
+    <string name="order_date_time">Order Date / Time: %s</string>
+    <string name="order_total">Order Total: %s</string>
+    <string name="order_status">Status: %s</string>
+    <string name="order_detail">See Detail</string>
+
+    <string name="activity_order_id">Order # %s</string>
+    <string name="activity_order_date_time">Order Date/Time: %s</string>
+    <string name="activity_order_total">Order Total: %s</string>
+    <string name="activity_order_status">Status: %s</string>
+    <string name="activity_order_payment">Payment Method: %s</string>
+    <string name="activity_order_shipping">Shipping via %s</string>
+    <string name="activity_order_sku">SKU # %s</string>
+    <string name="activity_order_quantity">Qty. %s</string>
+
+    <string name="oldPassword">OLD:</string>
+    <string name="newPassword">NEW:</string>
+    <string name="changePasswordConfirm">CONFIRM:</string>
+    <string name="delete_wishlist_msg">Item has been removed from your wish list</string>
+    <string name="add_wishlist_msg">This item has been added to your cart</string>
+    <string name="refine_price_range_title">IN THIS PRICE RANGE:</string>
+    <string name="refine_apply_btn_title">APPLY</string>
+    <string name="refine_reset_btn_title">RESET</string>
+    <string name="faqs_txt">TERMS AND CONDITIONS \n \n SITE ACCESS:\n FOOTPRINT DOESNOT ALLOW YOU TO RELEASE OR ANY COMMERCIAL USE OF ITS \n SITE OR CONTENT, ANY COLLECTION AND USE OF ANY PRODUCT LISTINGS, \n DESCRIPTIONS OR PRICES ANY \n DOWNLOADING OR ACCOUNT INFORMATON FOR THE BENEFIT OF ANOTHER MERCHANT OR ANY USE OF \n DATA MINING, ROBOTS OR SIMILAR DATA GATHERING AND EXTRACTION TOOLS. </string>
+    <string name="cont_txt">ZAMZAMA 10-C COM,LANE #5 DHA ,KARACHI
+Buy now the best collection of fashionable women shoes at unze.com.pk. Different types of women shoes are available in variety of designs suitable for casual and formal wear. Be it evening shoes or any other style - it is all here.
+    THE FORUM 130 1ST FLOOR BL-9,CLIFTON KARACHI </string>
+    <string name="how_to_txt">You want to mess with the look of things? Well, throughout Shoes, styles are used to change the way elements appear. In some cases, you can even style an entire class of elements.</string>
+    <string name="newssub_txt">Buy now the best collection of fashionable women shoes at unze.com.pk. Different types of women shoes are available in variety of designs suitable for casual and formal wear. Be it evening shoes or any other style - it is all here.</string>
+
+    <string name="next_txt">Restocks… either you love them or you hate them. If we based it all on your tweets, we would think it leans more toward the latter. Well, to help you deal with that deep-rooted sneakerhead passion, we put together a list of tips to help you get through the next round of restocks.</string>
+    <string name="BuyNow">BUY NOW</string>
+    <string name="SoldOut">SOLD OUT</string>
+    <string name="NoSizeAttribute">This product doesn\'t have the size attribute</string>
+    <string name="SelectSize">Please select the size…!</string>
+    <string name="SelectColor">Please select the colour…!</string>
+    <string name="CartDisabled">The Cart button is disabled by the admin, please contact to our moderators for more information ..!</string>
+    <string name="OutofStock">This item is out of stock..!</string>
+    <string name="NoMoreProducts">No more products to load</string>
+    <string name="ConfirmPassword">Your password does not match the confirm password</string>
+    <string name="ValidDate">Please provide a valid Date of Birth day…!</string>
+    <string name="ValidMonth">Please provide a valid Date of Birth month…!</string>
+    <string name="ValidYear">Please provide a valid Date of Birth year…!</string>
+    <string name="WishListEmpty">Your wish list is empty</string>
+    <string name="CategroiesNotFound">Categories Not found</string>
+    <string name="QuantityNotNull">Quantity can not be 0</string>
+    <string name="InvalidResponse">Invalid response is coming from the server</string>
+    <string name="OrderPlacedSuccessfully">Your order has been successfully placed, we\'ll contact you ASAP.</string>
+    <string name="RequestDelivered">Your request is Successfully deliver to our CS team</string>
+    <string name="SomeThingWentWrong">Something Went Wrong</string>
+    <string name="IrregularResponse">Irregular response is coming from server</string>
+    <string name="MinimumCharacterToSearch">Please enter minimum 3 characters to search…!</string>
+    <string name="NoPriceDefined">No prices defined</string>
+    <string name="AllPrices">All PRICES</string>
+    <string name="CartEmpty">Your cart is empty</string>
+    <string name="Zero">0.00</string>
+    <string name="NoResponse">No response received..!</string>
+    <string name="ConnectionTimeout">Connection timed out..!</string>
+    <string name="drawer">Drawer</string>
+    <string name="Profile">Profile</string>
+    <string name="AmnaIsmailUrl">http://www.gstextile.pk/Content/Images/uploaded/images/Amnaismail%20Festive%20Lawn%20Collection%202016.pdf</string>
+    <string name="FarahUrl">http://www.gstextile.pk/Content/Images/uploaded/images/FL.pdf</string>
+    <string name="ZuniPdf">http://www.gstextile.pk/Content/Images/uploaded/images/zuni.pdf</string>
+    <string name="Back">Back</string>
+    <string name="Filter">Filter</string>
+    <string name="ChangeViewStyle">Change View Style</string>
+    <string name="Refine">REFINE</string>
+    <string name="ColorFilter">CLEAR FILTER</string>
+    <string name="Style">STYLE</string>
+    <string name="Size">SIZE</string>
+    <string name="Color">COLOR</string>
+    <string name="Material">MATERIAL</string>
+    <string name="Sole">SOLE</string>
+    <string name="AllPrice">All PRICES</string>
+    <string name="Name">Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="email_address">Email Address</string>
+    <string name="company_name">COMPANY NAME</string>
+    <string name="city">City</string>
+    <string name="address">ADDRESS</string>
+    <string name="save">Save</string>
+    <string name="add_new">ADD NEW</string>
+    <string name="shipping_fees">Shipping Fees</string>
+    <string name="process_order">process order</string>
+    <string name="change_password">CHANGE PASSWORD</string>
+    <string name="query">QUERY</string>
+    <string name="submit">submit</string>
+    <string name="PhoneNumber">0092 331 2888 193</string>
+    <string name="whatapp_icon">Whatapp icon</string>
+    <string name="or_whatsapp">or Whatsapp</string>
+    <string name="gender">Gender:</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="first_name">FIRST NAME</string>
+    <string name="last_name">LAST NAME</string>
+    <string name="day">DAY</string>
+    <string name="month">MONTH</string>
+    <string name="year">YEAR</string>
+    <string name="email">EMAIL</string>
+    <string name="newsletter_subscription">NEWSLETTER SUBSCRIPTION</string>
+    <string name="update">UPDATE</string>
+    <string name="gift">Gift</string>
+    <string name="to">TO</string>
+    <string name="recipient_name">RECIPIENT\'S NAME</string>
+    <string name="recipient_email">RECIPIENT\'S EMAIL</string>
+    <string name="from">FROM</string>
+    <string name="your_name">YOUR NAME</string>
+    <string name="your_email">YOUR EMAIL</string>
+    <string name="message_optional">MESSAGE (OPTIONAL)</string>
+    <string name="enter_your_message_here">ENTER YOUR MESSAGE HERE</string>
+    <string name="cancel">CANCEL</string>
+    <string name="send_now">SEND NOW</string>
+    <string name="user_name">User Name</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">FORGOT PASSWORD</string>
+    <string name="log_in">LOG IN</string>
+    <string name="facebook">FACEBOOK</string>
+    <string name="guest">GUEST</string>
+    <string name="not_member">NOT A MEMBER |</string>
+    <string name="click_here">CLICK HERE</string>
+    <string name="dot">---</string>
+    <string name="shopping_items">Shopping Items</string>
+    <string name="register">REGISTER</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="current_balance">CURRENT BALANCE</string>
+    <string name="minimum_points_to_redeem">MINIMUM POINTS TO REDEEM</string>
+    <string name="shopNow">Shop Now! To Get Reward Points</string>
+    <string name="background">BackGround</string>
+    <string name="qty">QTY:</string>
+    <string name="delete">delete</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="text">Text</string>
+    <string name="price_color">Price Color</string>
+    <string name="category_name">Category Name</string>
+    <string name="next">Next</string>
+    <string name="price">Price:</string>
+    <string name="product">Product</string>
+    <string name="fees">Fees:</string>
+    <string name="coventry">Coventry</string>
+    <string name="dollar">$</string>
+    <string name="value">Value</string>
+    <string name="view">View</string>
+    <string name="title">Title</string>
+    <string name="close">CLOSE</string>
+    <string name="enter_quantity">Enter Quantity</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="search">SEARCH</string>
+    <string name="pkr">PKR</string>
+    <string name="min_price">Min Price</string>
+    <string name="max_price">Max Price</string>
+    <string name="category">Category</string>
+    <string name="search_in_product_category">Search In Product Category</string>
+    <string name="search_in_sub_categories">Search In Sub Categories</string>
+    <string name="search_keyword">Search Keyword</string>
+    <string name="string_plus">PLUS</string>
+    <string name="faqs">FAQS</string>
+    <string name="how_to_use">HOW TO USE</string>
+    <string name="newsletter">NEWSLETTER</string>
+    <string name="what_next">WHAT\'S NEXT</string>
+    <string name="contact">CONTACT</string>
+    <string name="confirm">Confirm</string>
+    <string name="new_address">NEW ADDRESS</string>
+    <string name="location_info">Location info</string>
+    <string name="address_1">Address 1</string>
+    <string name="country">Country</string>
+    <string name="province">Province</string>
+    <string name="state">State</string>
+    <string name="postal_code">Postal Code</string>
+    <string name="general_info">General info</string>
+    <string name="fax_number">Fax Number</string>
+    <string name="confirm_details">CONFIRM DETAILS</string>
+    <string name="shop_the_look">Shop The Look</string>
+    <string name="associated_products">associated products</string>
+    <string name="pkr_zero">PKR 00.00</string>
+    <string name="it_in_the_cart">it\'s in the cart</string>
+    <string name="thank_you_this_item_has_been_added_to_your_shopping_cart">Thank you, this item has been added to your shopping cart</string>
+    <string name="total_item">total item(s)</string>
+    <string name="i_liked">I LIKED</string>
+    <string name="proceed_to_checkout">proceed to checkout</string>
+    <string name="continue_shopping">Continue shopping</string>
+    <string name="may_we_suggest">May we suggest</string>
+    <string name="add_to_wishlist">add to wishlist</string>
+    <string name="lessthen"><![CDATA[<]]></string>
+    <string name="greaterThen"><![CDATA[>]]></string>
+    <string name="load_more">Load more</string>
+    <string name="select_shipping_locations">SELECT SHIPPING LOCATIONS</string>
+    <string name="select_shipping_methods">SELECT SHIPPING METHODS</string>
+    <string name="pay_fees_from_reward_points">Pay fees from reward points</string>
+    <string name="add_payment">Add Payment</string>
+    <string name="that_are">THAT ARE:</string>
+    <string name="shipping_return"><![CDATA[shipping & return]]></string>
+
+
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+	<!--<RelativeLayout
+	    android:id="@+id/activity_address_header"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+    	android:minHeight="?attr/actionBarSize"
+        android:background="@android:color/black">
+		
+	    <ImageView
+	        android:id="@+id/top_bar_backbutton_imgview"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:src="@drawable/backbutton"
+	    	android:padding="@dimen/margin_10"
+	    	android:contentDescription="@string/app_name"
+	    	android:layout_centerVertical="true"/>
+	    
+	    <ImageView
+	        android:id="@+id/activity_address_header_logo_nav"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:src="@drawable/topbar_logo"
+	    	android:contentDescription="@string/app_name"
+	    	android:layout_centerInParent="true"/>
+	    
+	    <ImageView
+	        android:id="@+id/activity_address_header_right_nav"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:src="@drawable/profile_icon"
+	    	android:contentDescription="@string/app_name"
+	    	android:padding="@dimen/margin_10"
+	    	android:layout_alignParentRight="true"
+	    	android:layout_centerVertical="true"/>
+
+	</RelativeLayout>-->
+	<!--<android.support.v4.widget.DrawerLayout
+	    android:id="@+id/drawer_layout"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_below="@id/activity_address_header">-->
+	
+	    <FrameLayout 
+	        android:id="@+id/activity_address_container"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent">
+			<!--android:layout_below="@id/activity_address_header"-->
+	    </FrameLayout>
+		
+		<!--<include layout="@layout/right_drawer" />
+        <include layout="@layout/left_drawer" />-->
+	<!--</android.support.v4.widget.DrawerLayout>-->
+	
+</RelativeLayout>
